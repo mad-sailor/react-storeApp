@@ -1,0 +1,42 @@
+.cart{
+    width: 1024px;
+    margin: 10px auto;
+    padding: 0 22px;
+    table{
+        width: 100%;
+        border-spacing: 0;
+        border-collapse: collapse;
+        thead>tr>th{
+            border: 1px solid #666;
+        }
+        tbody>tr>td{
+            border: 1px solid #999;
+            text-align: center;
+            img{
+                width: 64px;
+                height: 64px;
+            }
+            &.count{
+                button{
+                    box-sizing: border-box;
+                    width: 24px;
+                    height: 24px;
+                    line-height: 24px;
+                    border: 1px solid #eee;
+                    background: #ccc;
+                    color: #f00;
+                    border-radius: 5px;
+                    outline: none;
+                    cursor: pointer;
+                }
+                span{
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    line-height: 24px;
+                    user-select: none;
+                }
+            }
+        }
+    }
+}

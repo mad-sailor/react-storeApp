@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+p,ul,dl,ol,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+div,p,ul,li{
+    box-sizing: border-box;
+}
+input,button{
+    outline: none;
+}

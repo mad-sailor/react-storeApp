@@ -1,0 +1,19 @@
+.lf{
+  float: left;
+}
+.rf{
+  float: right;
+}
+.clear::after,.clear::before{
+  content: '';
+  display: table;
+}
+.clear::after{
+  clear: both;
+}
+
+/* 主体样式 */
+#main{
+  width: 1024px;
+  margin: auto;
+}

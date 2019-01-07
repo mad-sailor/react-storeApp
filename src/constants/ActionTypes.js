@@ -1,0 +1,9 @@
+export const LOGIN = 'LOGIN';
+export const LOGOUT = 'LOGOUT';
+export const RECIVE_PRO_LIST = 'RECIVE_PRO_LIST';
+export const CART_LIST = 'CART_LIST';
+export const ADD_PRODUCT = 'ADD_PRODUCT';
+export const CHANGE_COUNT = 'CHANGE_COUNT';
+export const DEL_PRODUCT = 'DEL_PRODUCT';
+export const CHECK_ROW = 'CHECK_ROW';
+export const PRY_FOR_PRO = 'PRY_FOR_PRO';
